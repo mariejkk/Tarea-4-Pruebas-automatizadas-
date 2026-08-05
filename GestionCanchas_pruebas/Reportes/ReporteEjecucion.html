@@ -1,0 +1,950 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title>Gestor de Canchas - Reporte de Pruebas Automatizadas</title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@78fa5a2421587b8228150e93142e5ba97178e85b/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">8/5/2026 1:17:49 AM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_CaminoFeliz_ApareceEnTabla</p>
+            <p class="text-sm">
+              <span>1:17:49 AM</span> / <span>1887.81 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_CaminoFeliz_ApareceEnTabla</h5>
+                  <span class='badge badge-success'>8/5/2026 1:17:49 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:17:51 AM</span>
+                  <span class='badge badge-default'>1887.81 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearCancha_CaminoFeliz_ApareceEnTabla_20260805_011751.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearCancha_CaminoFeliz_ApareceEnTabla_20260805_011751.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:17:51</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_PruebaLimite_PrecioMaximoPermitido_Guarda</p>
+            <p class="text-sm">
+              <span>1:17:52 AM</span> / <span>1742.06 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_PruebaLimite_PrecioMaximoPermitido_Guarda</h5>
+                  <span class='badge badge-success'>8/5/2026 1:17:52 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:17:54 AM</span>
+                  <span class='badge badge-default'>1742.06 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearCancha_PruebaLimite_PrecioMaximoPermitido_Guarda_20260805_011754.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearCancha_PruebaLimite_PrecioMaximoPermitido_Guarda_20260805_011754.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:17:54</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_PruebaNegativa_NombreVacio_NoGuarda</p>
+            <p class="text-sm">
+              <span>1:17:56 AM</span> / <span>1217.96 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_PruebaNegativa_NombreVacio_NoGuarda</h5>
+                  <span class='badge badge-success'>8/5/2026 1:17:56 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:17:57 AM</span>
+                  <span class='badge badge-default'>1217.96 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearCancha_PruebaNegativa_NombreVacio_NoGuarda_20260805_011757.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearCancha_PruebaNegativa_NombreVacio_NoGuarda_20260805_011757.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:17:57</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_CaminoFeliz_CambiosSeReflejanEnTabla</p>
+            <p class="text-sm">
+              <span>1:17:58 AM</span> / <span>2624.04 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_CaminoFeliz_CambiosSeReflejanEnTabla</h5>
+                  <span class='badge badge-success'>8/5/2026 1:17:58 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:01 AM</span>
+                  <span class='badge badge-default'>2624.04 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EditarCancha_CaminoFeliz_CambiosSeReflejanEnTabla_20260805_011801.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EditarCancha_CaminoFeliz_CambiosSeReflejanEnTabla_20260805_011801.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:01</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_PruebaLimite_PrecioMenorAlMinimo_MuestraErrorDelBackend</p>
+            <p class="text-sm">
+              <span>1:18:02 AM</span> / <span>2431.22 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_PruebaLimite_PrecioMenorAlMinimo_MuestraErrorDelBackend</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:02 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:05 AM</span>
+                  <span class='badge badge-default'>2431.22 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EditarCancha_PruebaLimite_PrecioMenorAlMinimo_MuestraErrorDelBackend_20260805_011805.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EditarCancha_PruebaLimite_PrecioMenorAlMinimo_MuestraErrorDelBackend_20260805_011805.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:05</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_PruebaNegativa_PrecioVacio_NoGuarda</p>
+            <p class="text-sm">
+              <span>1:18:06 AM</span> / <span>2084.23 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_PruebaNegativa_PrecioVacio_NoGuarda</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:06 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:08 AM</span>
+                  <span class='badge badge-default'>2084.23 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EditarCancha_PruebaNegativa_PrecioVacio_NoGuarda_20260805_011808.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EditarCancha_PruebaNegativa_PrecioVacio_NoGuarda_20260805_011808.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:08</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.LoginTests.Login_CaminoFeliz_CredencialesValidas_RedirigeADashboard</p>
+            <p class="text-sm">
+              <span>1:18:17 AM</span> / <span>1134.53 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.LoginTests.Login_CaminoFeliz_CredencialesValidas_RedirigeADashboard</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:17 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:18 AM</span>
+                  <span class='badge badge-default'>1134.53 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\Login_CaminoFeliz_CredencialesValidas_RedirigeADashboard_20260805_011818.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\Login_CaminoFeliz_CredencialesValidas_RedirigeADashboard_20260805_011818.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:18</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.LoginTests.Login_PruebaLimite_CamposVacios_NoEnviaFormulario</p>
+            <p class="text-sm">
+              <span>1:18:19 AM</span> / <span>577.44 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.LoginTests.Login_PruebaLimite_CamposVacios_NoEnviaFormulario</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:19 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:20 AM</span>
+                  <span class='badge badge-default'>577.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\Login_PruebaLimite_CamposVacios_NoEnviaFormulario_20260805_011819.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\Login_PruebaLimite_CamposVacios_NoEnviaFormulario_20260805_011819.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:20</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.LoginTests.Login_PruebaNegativa_PasswordIncorrecta_MuestraMensajeError</p>
+            <p class="text-sm">
+              <span>1:18:21 AM</span> / <span>975.96 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.LoginTests.Login_PruebaNegativa_PasswordIncorrecta_MuestraMensajeError</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:21 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:22 AM</span>
+                  <span class='badge badge-default'>975.96 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\Login_PruebaNegativa_PasswordIncorrecta_MuestraMensajeError_20260805_011822.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\Login_PruebaNegativa_PasswordIncorrecta_MuestraMensajeError_20260805_011822.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:22</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_CaminoFeliz_ApareceEnTabla</p>
+            <p class="text-sm">
+              <span>1:18:23 AM</span> / <span>1707.44 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_CaminoFeliz_ApareceEnTabla</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:23 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:25 AM</span>
+                  <span class='badge badge-default'>1707.44 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearReserva_CaminoFeliz_ApareceEnTabla_20260805_011825.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearReserva_CaminoFeliz_ApareceEnTabla_20260805_011825.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:25</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_PruebaLimite_FechaHoy_Guarda</p>
+            <p class="text-sm">
+              <span>1:18:26 AM</span> / <span>1742.63 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_PruebaLimite_FechaHoy_Guarda</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:26 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:28 AM</span>
+                  <span class='badge badge-default'>1742.63 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearReserva_PruebaLimite_FechaHoy_Guarda_20260805_011828.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearReserva_PruebaLimite_FechaHoy_Guarda_20260805_011828.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:28</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_PruebaNegativa_HoraFinAntesDeHoraInicio_MuestraErrorDelBackend</p>
+            <p class="text-sm">
+              <span>1:18:30 AM</span> / <span>1212.53 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_PruebaNegativa_HoraFinAntesDeHoraInicio_MuestraErrorDelBackend</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:30 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:31 AM</span>
+                  <span class='badge badge-default'>1212.53 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearReserva_PruebaNegativa_HoraFinAntesDeHoraInicio_MuestraErrorDelBackend_20260805_011831.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\CrearReserva_PruebaNegativa_HoraFinAntesDeHoraInicio_MuestraErrorDelBackend_20260805_011831.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:31</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_CaminoFeliz_DesapareceDeTabla</p>
+            <p class="text-sm">
+              <span>1:18:32 AM</span> / <span>2142.92 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_CaminoFeliz_DesapareceDeTabla</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:32 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:34 AM</span>
+                  <span class='badge badge-default'>2142.92 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EliminarReserva_CaminoFeliz_DesapareceDeTabla_20260805_011834.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EliminarReserva_CaminoFeliz_DesapareceDeTabla_20260805_011834.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:34</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_PruebaLimite_BuscarDespuesDeEliminar_NoApareceEnResultados</p>
+            <p class="text-sm">
+              <span>1:18:36 AM</span> / <span>2200.22 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_PruebaLimite_BuscarDespuesDeEliminar_NoApareceEnResultados</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:36 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:38 AM</span>
+                  <span class='badge badge-default'>2200.22 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EliminarReserva_PruebaLimite_BuscarDespuesDeEliminar_NoApareceEnResultados_20260805_011838.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EliminarReserva_PruebaLimite_BuscarDespuesDeEliminar_NoApareceEnResultados_20260805_011838.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:38</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_PruebaNegativa_CancelarConfirmacion_PermaneceEnTabla</p>
+            <p class="text-sm">
+              <span>1:18:39 AM</span> / <span>1830.56 ms</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_PruebaNegativa_CancelarConfirmacion_PermaneceEnTabla</h5>
+                  <span class='badge badge-success'>8/5/2026 1:18:39 AM</span>
+                  <span class='badge badge-danger'>8/5/2026 1:18:41 AM</span>
+                  <span class='badge badge-default'>1830.56 ms</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+  <div class="row mb-3">
+   <div class="col-md-3">
+     <img data-featherlight='C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EliminarReserva_PruebaNegativa_CancelarConfirmacion_PermaneceEnTabla_20260805_011841.png' src="C:\Users\marie\Pruebas\GestionCanchas\src\GestionCanchas.Tests\bin\Debug\net9.0\Reportes\Screenshots\EliminarReserva_PruebaNegativa_CancelarConfirmacion_PermaneceEnTabla_20260805_011841.png">
+  </div>
+ </div>
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>Aug 05, 2026 01:18:41</td>
+        <td>
+La prueba pasó correctamente.        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>8/5/2026 1:17:49 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>8/5/2026 1:18:41 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>15</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>15</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'><b>15</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_CaminoFeliz_ApareceEnTabla":1887.8067,"GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_PruebaLimite_PrecioMaximoPermitido_Guarda":1742.062,"GestionCanchas.Tests.Tests.CanchaCrudTests.CrearCancha_PruebaNegativa_NombreVacio_NoGuarda":1217.9624,"GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_CaminoFeliz_CambiosSeReflejanEnTabla":2624.0412,"GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_PruebaLimite_PrecioMenorAlMinimo_MuestraErrorDelBackend":2431.2225,"GestionCanchas.Tests.Tests.CanchaCrudTests.EditarCancha_PruebaNegativa_PrecioVacio_NoGuarda":2084.2319,"GestionCanchas.Tests.Tests.LoginTests.Login_CaminoFeliz_CredencialesValidas_RedirigeADashboard":1134.5296,"GestionCanchas.Tests.Tests.LoginTests.Login_PruebaLimite_CamposVacios_NoEnviaFormulario":577.4376,"GestionCanchas.Tests.Tests.LoginTests.Login_PruebaNegativa_PasswordIncorrecta_MuestraMensajeError":975.9628,"GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_CaminoFeliz_ApareceEnTabla":1707.4392,"GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_PruebaLimite_FechaHoy_Guarda":1742.634,"GestionCanchas.Tests.Tests.ReservaCrudTests.CrearReserva_PruebaNegativa_HoraFinAntesDeHoraInicio_MuestraErrorDelBackend":1212.5334,"GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_CaminoFeliz_DesapareceDeTabla":2142.9159,"GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_PruebaLimite_BuscarDespuesDeEliminar_NoApareceEnResultados":2200.221,"GestionCanchas.Tests.Tests.ReservaCrudTests.EliminarReserva_PruebaNegativa_CancelarConfirmacion_PermaneceEnTabla":1830.5567 };
+  </script>
+  <div class="row">
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 15,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 15,
+
+passParent:15,failParent:0,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:15,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:0,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c439bdbc7bade3d85af3b90e9e69c30ebc87445f/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>

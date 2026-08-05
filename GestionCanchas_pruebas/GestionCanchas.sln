@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12023.21
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCanchas.Domain", "src\GestionCanchas.Domain\GestionCanchas.Domain.csproj", "{D2343C54-8DCB-4F7A-AAF4-20726A244519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCanchas.Application", "src\GestionCanchas.Application\GestionCanchas.Application.csproj", "{D768D0C2-8CD8-46DA-8865-B3D0C6480A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCanchas.Infrastructure", "src\GestionCanchas.Infrastructure\GestionCanchas.Infrastructure.csproj", "{23E70620-7939-4F73-8D9A-E769F0BF8F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCanchas.API", "src\GestionCanchas.API\GestionCanchas.API.csproj", "{D9A3445A-4A76-43AB-8036-4A4B0E003AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCanchas.Web", "src\GestionCanchas.Web\WebApplication1\GestionCanchas.Web.csproj", "{6B609707-014F-4886-B403-E1E96A442A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionCanchas.Tests", "src\GestionCanchas.Tests\GestionCanchas.Tests.csproj", "{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2343C54-8DCB-4F7A-AAF4-20726A244519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2343C54-8DCB-4F7A-AAF4-20726A244519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2343C54-8DCB-4F7A-AAF4-20726A244519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2343C54-8DCB-4F7A-AAF4-20726A244519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D768D0C2-8CD8-46DA-8865-B3D0C6480A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D768D0C2-8CD8-46DA-8865-B3D0C6480A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D768D0C2-8CD8-46DA-8865-B3D0C6480A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D768D0C2-8CD8-46DA-8865-B3D0C6480A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E70620-7939-4F73-8D9A-E769F0BF8F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E70620-7939-4F73-8D9A-E769F0BF8F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E70620-7939-4F73-8D9A-E769F0BF8F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E70620-7939-4F73-8D9A-E769F0BF8F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A3445A-4A76-43AB-8036-4A4B0E003AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A3445A-4A76-43AB-8036-4A4B0E003AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A3445A-4A76-43AB-8036-4A4B0E003AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A3445A-4A76-43AB-8036-4A4B0E003AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B609707-014F-4886-B403-E1E96A442A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B609707-014F-4886-B403-E1E96A442A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B609707-014F-4886-B403-E1E96A442A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B609707-014F-4886-B403-E1E96A442A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E9DF87-168C-4EB5-BAAC-30D56D088A46}
+	EndGlobalSection
+EndGlobal
